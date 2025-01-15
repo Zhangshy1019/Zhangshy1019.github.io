@@ -178,51 +178,58 @@
 <!-- End paper abstract -->
 
 <!-- Presentation Image -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper Image -->
-      <h2 class="title is-3">Architecture</h2>
-      <div class="columns is-centered">
-        <div class="column is-four-fifths">
-          <div class="publication-image">
-            <!-- Image embedding -->
-            <img src="static/images/Training1.png" alt="MY ALT TEXT"/>
-            <p>
-              <b>Overview of ComposeAnyone.</b> (a)Data Preparation. We leverage CogVLM2, SAM, and SCHP to enrich the image-based try-on datasets with fine-grained textual descriptions, hand-drawn layouts, and human component sets. (b)Training Procedure. We begin by employing the VAE encoder and the CLIP encoder to extract image and text embeddings, respectively, subsequently injecting the embeddings into the U-Net through concatenation across space and channel dimensions, yielding impressive results without the necessity of additional feature networks.
-            </p>
-          </div>
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Architecture. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Architecture</h2>
+        <div class="content has-text-justified">
+          <img src="resource/img/architecture.jpg">
+          <p>
+            <b>Overview of ComposeAnyone.</b> 
+            (a)Data Preparation. We leverage CogVLM2, SAM, and SCHP to enrich the image-based try-on datasets with fine-grained textual descriptions, hand-drawn layouts, and human component sets. 
+            (b)Training Procedure. We begin by employing the VAE encoder and the CLIP encoder to extract image and text embeddings, respectively, subsequently injecting the embeddings into the U-Net through concatenation across space and channel dimensions, yielding impressive results without the necessity of additional feature networks.
+          </p>
+          
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- End Presentation Image -->
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
+<!-- Demo -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Online Demo</h2>
+        <div class="content has-text-justified">
+          <!-- <iframe src="http://120.76.142.206:8888" width="100%" height="700px"  frameborder="1/0"  name="demo"  scrolling="yes/no/auto">   
+          </iframe>           -->
+          <p>
+            Since GitHub Pages does not support embedded web pages, please jump to our Demo.
+          </p>
+        </div>
       </div>
     </div>
-  </section>
-<!--End paper poster -->
 
+    <!-- Acknowledgement -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Acknowledgement</h2>
+        <div class="content has-text-justified">
+          <p>
+            Thanks to all the contributors!
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- "BibTeX -->
 
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>
+       XXX
+      </code></pre>
     </div>
+  </div>
 </section>
-<!--End BibTex citation -->
 
 
   <footer class="footer">
